@@ -1,0 +1,44 @@
+/* Valores fixos */
+
+:root {
+    /* Cores */
+    --h1color: #fff;
+    --h2color: #E1E1E1;
+    --pcolor: #FFFFFF;
+    --maincolor: #6B1BD3;
+    --wppcolor: #26D366;
+    --emlcolor: #0078D7;
+    --intcolor: #DD2D78;
+    --lkdcolor: #0A66C2;
+    --gthcolor: #F0F6FC;
+    --gthiconcolor: #000000;
+    --bhccolor: #0057FF;
+
+}
+
+/* Variaveis responsívas */
+
+@media(min-width: 1920px) {
+    :root {
+        /* Tamanho */
+        /* Tamanho da tipografia */
+        --tamh1: 64px;
+        --tamh2: 32px;
+        --tamp: 36px;
+
+        /* Tamanho da margem */
+        --tammargem: 140px;
+
+        --tamdisplay: 740px;
+        --tamperfil: 440px;
+
+    }
+}
+
+@media(min-width: 1440px) {
+    :root {}
+}
+
+@media(min-width: 1280px) {
+    :root {}
+}
