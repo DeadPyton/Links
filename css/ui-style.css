@@ -2,17 +2,20 @@
 
 :root {
     /* Cores */
-    --h1color: #fff;
-    --h2color: #E1E1E1;
-    --pcolor: #FFFFFF;
-    --maincolor: #6B1BD3;
-    --wppcolor: #26D366;
-    --emlcolor: #0078D7;
-    --intcolor: #DD2D78;
-    --lkdcolor: #0A66C2;
-    --gthcolor: #F0F6FC;
-    --gthiconcolor: #000000;
-    --bhccolor: #0057FF;
+    --h1color: #ffffff; /* Cor do Titulo 1 */
+    --h2color: #E1E1E1; /* Cor do Titulo 2 */
+    --pcolor: #FFFFFF; /* Cor do paragrafo */
+    --maincolor: #6B1BD3; /* Cor principal */
+    --iconcolor: #ffffff; /* Cor dos icones */
+    --wppcolor: #26D366; /* Cor do Whatsapp bg*/
+    --emlcolor: #0078D7; /* Cor do Email bg*/
+    --intcolor: #DD2D78; /* Cor do Instagram bg*/
+    --lkdcolor: #0A66C2; /* Cor do LinkedIn bg*/
+    --gthcolor: #F0F6FC; /* Cor do Github bg*/
+    --gthiconcolor: #000000; /* Cor do Github hover */
+    --bhccolor: #0057FF; /* Cor do Behance bg*/
+
+    --tampadding: calc(var(--tamnessicon) + var(--marnessicon)); /* Calculo do tamanho do paddin */
 
 }
 
@@ -20,25 +23,60 @@
 
 @media(min-width: 1920px) {
     :root {
-        /* Tamanho */
         /* Tamanho da tipografia */
-        --tamh1: 64px;
-        --tamh2: 32px;
-        --tamp: 36px;
+        --tamh1: 64px; /* tam do h1 */
+        --tamh2: 32px; /* tam do h2 */
+        --tamp: 36px; /* tam do paragrafo */
 
-        /* Tamanho da margem */
-        --tammargem: 140px;
+        --tammargem: 140px; /* Tamanho da margem de cima */
 
-        --tamdisplay: 740px;
-        --tamperfil: 440px;
+        --tamdisplaywd: 740px; /* Tamanho do display */
+
+        --tamperfil: 440px; /* Tamanho da img de perfil */
+
+        --tamlesslink: 484px; /* Tamanho do espaçamento dos botões pequenos */
+        --tamlessbutton: 120px; /* Tamanho dos botoes pequenos */
+        --tamlessicon: 80px; /* Tamanho dos icones dos botoes pequenos */
+
+        --widnessbutton: 640px; /* Largura dos botoes grandes */
+        --heinessbutton: 100px; /* Altura dos botoes grandes */
+        --marnessbutton: 60px; /* Tamanho da margem dos botoes grandes */
+        --tamnessicon: 72px; /* Tamanho dos icones dos botoes grandes */
+        --marnessicon: 10px; /* Tamanho da margem do icone */
+
+
 
     }
 }
 
+
 @media(min-width: 1440px) {
-    :root {}
+    :root {
+        /* Tamanho da tipografia */
+        --tamh1: 64px; /* tam do h1 */
+        --tamh2: 32px; /* tam do h2 */
+        --tamp: 36px; /* tam do paragrafo */
+
+        --tammargem: 140px; /* Tamanho da margem de cima */
+
+        --tamdisplaywd: 740px; /* Tamanho do display */
+
+        --tamperfil: 440px; /* Tamanho da img de perfil */
+
+        --tamlesslink: 484px; /* Tamanho do espaçamento dos botões pequenos */
+        --tamlessbutton: 120px; /* Tamanho dos botoes pequenos */
+        --tamlessicon: 80px; /* Tamanho dos icones dos botoes pequenos */
+
+        --widnessbutton: 640px; /* Largura dos botoes grandes */
+        --heinessbutton: 100px; /* Altura dos botoes grandes */
+        --marnessbutton: 60px; /* Tamanho da margem dos botoes grandes */
+        --tamnessicon: 64px; /* Tamanho dos icones dos botoes grandes */
+        --marnessicon: 10px; /* Tamanho da margem do icone */
+    }
 }
 
 @media(min-width: 1280px) {
-    :root {}
+    :root {
+
+    }
 }
