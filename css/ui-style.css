@@ -16,67 +16,110 @@
     --bhccolor: #0057FF; /* Cor do Behance bg*/
 
     --tampadding: calc(var(--tamnessicon) + var(--marnessicon)); /* Calculo do tamanho do paddin */
-
 }
 
 /* Variaveis responsívas */
 
-@media(min-width: 1920px) {
+/* Acima de 1440px */
     :root {
         /* Tamanho da tipografia */
         --tamh1: 64px; /* tam do h1 */
+        --tamlineh1: 75px; /* Tamanho da linha do h1 */
         --tamh2: 32px; /* tam do h2 */
+        --tamlineh2: 38px; /* Tamanho da linha do h2 */
+        --marh2: 110px; /* Tamanho da margem do h2 */
         --tamp: 36px; /* tam do paragrafo */
 
-        --tammargem: 140px; /* Tamanho da margem de cima */
+        --tammargem: 140px; /* Tamanho da margem */
 
         --tamdisplaywd: 740px; /* Tamanho do display */
 
         --tamperfil: 440px; /* Tamanho da img de perfil */
+        --marperfil: 40px; /* Tamanho da margem do perfil */
 
         --tamlesslink: 484px; /* Tamanho do espaçamento dos botões pequenos */
         --tamlessbutton: 120px; /* Tamanho dos botoes pequenos */
         --tamlessicon: 80px; /* Tamanho dos icones dos botoes pequenos */
+        --bradius: 25px; /* Raio da borda */
+        --border: 4px; /* Tamanho da borda */
 
         --widnessbutton: 640px; /* Largura dos botoes grandes */
         --heinessbutton: 100px; /* Altura dos botoes grandes */
         --marnessbutton: 60px; /* Tamanho da margem dos botoes grandes */
         --tamnessicon: 72px; /* Tamanho dos icones dos botoes grandes */
         --marnessicon: 10px; /* Tamanho da margem do icone */
-
-
-
     }
-}
 
 
-@media(min-width: 1440px) {
+
+@media(max-width: 1440px) {
     :root {
         /* Tamanho da tipografia */
-        --tamh1: 64px; /* tam do h1 */
-        --tamh2: 32px; /* tam do h2 */
-        --tamp: 36px; /* tam do paragrafo */
+        --tamh1: 48px; /* tam do h1 */
+        --tamlineh1: 56.25px; /* Tamanho da linha do h1 */
+        --tamh2: 24px; /* tam do h2 */
+        --tamlineh2: 28.5px; /* Tamanho da linha do h2 */
+        --marh2: 82.5px; /* Tamanho da margem do h2 */
+        --tamp: 27px; /* tam do paragrafo */
 
-        --tammargem: 140px; /* Tamanho da margem de cima */
+        --tammargem: 105px; /* Tamanho da margem de cima */
 
-        --tamdisplaywd: 740px; /* Tamanho do display */
+        --tamdisplaywd: 555px; /* Tamanho do display */
 
-        --tamperfil: 440px; /* Tamanho da img de perfil */
+        --tamperfil: 330px; /* Tamanho da img de perfil */
+        --marperfil: 30px; /* Tamanho da margem do perfil */
 
-        --tamlesslink: 484px; /* Tamanho do espaçamento dos botões pequenos */
-        --tamlessbutton: 120px; /* Tamanho dos botoes pequenos */
-        --tamlessicon: 80px; /* Tamanho dos icones dos botoes pequenos */
+        --tamlesslink: 363px; /* Tamanho do espaçamento dos botões pequenos */
+        --tamlessbutton: 90px; /* Tamanho dos botoes pequenos */
+        --tamlessicon: 60px; /* Tamanho dos icones dos botoes pequenos */
+        --bradius: 18.75px; /* Raio da borda */
+        --border: 3px; /* Tamanho da borda */
 
-        --widnessbutton: 640px; /* Largura dos botoes grandes */
-        --heinessbutton: 100px; /* Altura dos botoes grandes */
-        --marnessbutton: 60px; /* Tamanho da margem dos botoes grandes */
-        --tamnessicon: 64px; /* Tamanho dos icones dos botoes grandes */
-        --marnessicon: 10px; /* Tamanho da margem do icone */
+        --widnessbutton: 480px; /* Largura dos botoes grandes */
+        --heinessbutton: 75px; /* Altura dos botoes grandes */
+        --marnessbutton: 45px; /* Tamanho da margem dos botoes grandes */
+        --tamnessicon: 54px; /* Tamanho dos icones dos botoes grandes */
+        --marnessicon: 7.5px; /* Tamanho da margem do icone */
     }
 }
 
-@media(min-width: 1280px) {
+@media(max-width: 1024px) {
     :root {
+        /* Tamanho da tipografia */
+        --tamh1: 34.13px; /* tam do h1 */
+        --tamlineh1: 40px; /* Tamanho da linha do h1 */
+        --tamh2: 17.07px; /* tam do h2 */
+        --tamlineh2: 20.27px; /* Tamanho da linha do h2 */
+        --marh2: 58.67px; /* Tamanho da margem do h2 */
+        --tamp: 19.2px; /* tam do paragrafo */
 
+        --tammargem: 74.67px; /* Tamanho da margem */
+
+        --tamdisplaywd: 394.67px; /* Tamanho do display */
+
+        --tamperfil: 234.67px; /* Tamanho da img de perfil */
+        --marperfil: 21.33px; /* Tamanho da margem do perfil */
+
+        --tamlesslink: 258.13px; /* Tamanho do espaçamento dos botões pequenos */
+        --tamlessbutton: 64px; /* Tamanho dos botoes pequenos */
+        --tamlessicon: 42.67px; /* Tamanho dos icones dos botoes pequenos */
+        --bradius: 13.33px; /* Raio da borda */
+        --border: 2.13px; /* Tamanho da borda */
+
+        --widnessbutton: 341.33px; /* Largura dos botoes grandes */
+        --heinessbutton: 53.33px; /* Altura dos botoes grandes */
+        --marnessbutton: 32px; /* Tamanho da margem dos botoes grandes */
+        --tamnessicon: 38.4px; /* Tamanho dos icones dos botoes grandes */
+        --marnessicon: 5.33px; /* Tamanho da margem do icone */
+    }
+}
+
+@media(max-width: 320px){
+    :root{
+
+        --tamdisplaywd: 394.67px; /* Tamanho do display */
+
+        --widnessbutton: 290px; /* Largura dos botoes grandes */
+        --heinessbutton: 53.33px; /* Altura dos botoes grandes */
     }
 }
